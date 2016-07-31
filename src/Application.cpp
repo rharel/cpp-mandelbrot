@@ -321,11 +321,11 @@ void Application::RenderFrame()
     if (is_rendering && !renderer_.is_done())
     {
         renderer_.RenderStep();
-    }
-    if (renderer_.is_done())
-    {
-        renderer_.Flush();
-        is_stepping_ = false;
+        if (renderer_.is_done())
+        {
+            renderer_.Flush();
+            is_stepping_ = false;
+        }
     }
     renderer_.Render();
 
