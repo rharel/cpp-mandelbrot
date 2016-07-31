@@ -22,11 +22,16 @@ void Application::Initialize
     const unsigned int window_height
 )
 {
-    instance_.reset(new Application
+    if (instance_ != nullptr) { return; }
+
+    instance_.reset
     (
-        window_width, 
-        window_height
-    ));
+        new Application
+        (
+            window_width, 
+            window_height
+        )
+    );
 }
 Application& Application::instance()
 {
