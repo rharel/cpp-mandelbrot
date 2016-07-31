@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\KeyboardController.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ComputationStage.cpp">
+      <Filter>processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProcessingStage.cpp">
+      <Filter>processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Stopwatch.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SmoothColoringStage.cpp">
+      <Filter>processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Application.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Renderer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ColorArray.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DisplayStage.cpp">
+      <Filter>processing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\mandelbrot\KeyboardController.h">
+      <Filter>controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\ComputationStage.h">
+      <Filter>processing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\ProcessingStage.h">
+      <Filter>processing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Stopwatch.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\SmoothColoringStage.h">
+      <Filter>processing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Application.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Camera.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Renderer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Box2.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\Vector2.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\ColorArray.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mandelbrot\DisplayStage.h">
+      <Filter>processing</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d6aab639-e725-4a36-a60e-b1b9f1fbfe1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controllers">
+      <UniqueIdentifier>{b5df593f-d1f4-41cf-82fd-6810aae2f9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\coloring">
+      <UniqueIdentifier>{673e033a-4532-4934-b4e4-80ce4387a3c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="processing">
+      <UniqueIdentifier>{105a7624-ae64-4928-9c7f-b123d1ca41a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{e0b4ba38-3cc5-46fa-b17f-1dde7b3977bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{0fb7bcb4-d2fd-411d-8367-4b5457700743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{2d08f598-ac39-4c66-a1dd-5b340ce6eac0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\shaders\computeVertexShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\computeFragmentShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\simpleTextureVertexShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\simpleTextureFragmentShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\simpleColoringFragmentShader.glsl">
+      <Filter>shaders\coloring</Filter>
+    </None>
+    <None Include="..\src\shaders\simpleColoringVertexShader.glsl">
+      <Filter>shaders\coloring</Filter>
+    </None>
+    <None Include="..\src\shaders\smoothColoringFragmentShader.glsl">
+      <Filter>shaders\coloring</Filter>
+    </None>
+    <None Include="..\src\shaders\smoothColoringVertexShader.glsl">
+      <Filter>shaders\coloring</Filter>
+    </None>
+  </ItemGroup>
+</Project>
