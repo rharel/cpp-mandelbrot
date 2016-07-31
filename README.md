@@ -5,7 +5,7 @@ Run with `--help` for usage instructions.
 
 ## Demo
 
-You can view some high-resolution screenshots under [snapshots/png/](snapshots/png/).
+You can view some high-resolution screenshots under [img/snapshots/png/](img/snapshots/png/).
 
 ## License
 
